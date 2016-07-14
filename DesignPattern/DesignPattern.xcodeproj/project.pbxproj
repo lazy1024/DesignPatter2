@@ -15,6 +15,11 @@
 		151E52BF1D37C36200D747D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151E52BD1D37C36200D747D1 /* LaunchScreen.storyboard */; };
 		151E52CA1D37C36200D747D1 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52C91D37C36200D747D1 /* DesignPatternTests.m */; };
 		151E52D51D37C36200D747D1 /* DesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52D41D37C36200D747D1 /* DesignPatternUITests.m */; };
+		151E52E71D37C5D500D747D1 /* ConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52E61D37C5D500D747D1 /* ConsoleEmulator.m */; };
+		151E52EA1D37C61900D747D1 /* GameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52E91D37C61900D747D1 /* GameBoyEmulator.m */; };
+		151E52F01D37C66600D747D1 /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52EF1D37C66600D747D1 /* GameGearEmulator.m */; };
+		151E52F31D37C6A000D747D1 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52F21D37C6A000D747D1 /* ConsoleController.m */; };
+		151E52F61D37C6C500D747D1 /* TouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E52F51D37C6C500D747D1 /* TouchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		151E52D01D37C36200D747D1 /* DesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151E52D41D37C36200D747D1 /* DesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternUITests.m; sourceTree = "<group>"; };
 		151E52D61D37C36200D747D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151E52E41D37C5A000D747D1 /* ConsoleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleCommand.h; path = DT/Bridge/ConsoleCommand.h; sourceTree = "<group>"; };
+		151E52E51D37C5D500D747D1 /* ConsoleEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleEmulator.h; path = DT/Bridge/ConsoleEmulator.h; sourceTree = "<group>"; };
+		151E52E61D37C5D500D747D1 /* ConsoleEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsoleEmulator.m; path = DT/Bridge/ConsoleEmulator.m; sourceTree = "<group>"; };
+		151E52E81D37C61900D747D1 /* GameBoyEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameBoyEmulator.h; path = DT/Bridge/GameBoyEmulator.h; sourceTree = "<group>"; };
+		151E52E91D37C61900D747D1 /* GameBoyEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameBoyEmulator.m; path = DT/Bridge/GameBoyEmulator.m; sourceTree = "<group>"; };
+		151E52EE1D37C66600D747D1 /* GameGearEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameGearEmulator.h; path = DT/Bridge/GameGearEmulator.h; sourceTree = "<group>"; };
+		151E52EF1D37C66600D747D1 /* GameGearEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameGearEmulator.m; path = DT/Bridge/GameGearEmulator.m; sourceTree = "<group>"; };
+		151E52F11D37C6A000D747D1 /* ConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleController.h; path = DT/Bridge/ConsoleController.h; sourceTree = "<group>"; };
+		151E52F21D37C6A000D747D1 /* ConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsoleController.m; path = DT/Bridge/ConsoleController.m; sourceTree = "<group>"; };
+		151E52F41D37C6C500D747D1 /* TouchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchController.h; path = DT/Bridge/TouchController.h; sourceTree = "<group>"; };
+		151E52F51D37C6C500D747D1 /* TouchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchController.m; path = DT/Bridge/TouchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		151E52A31D37C36100D747D1 = {
 			isa = PBXGroup;
 			children = (
+				151E52E21D37C49100D747D1 /* DT */,
 				151E52AE1D37C36100D747D1 /* DesignPattern */,
 				151E52C81D37C36200D747D1 /* DesignPatternTests */,
 				151E52D31D37C36200D747D1 /* DesignPatternUITests */,
@@ -138,6 +155,24 @@
 				151E52D61D37C36200D747D1 /* Info.plist */,
 			);
 			path = DesignPatternUITests;
+			sourceTree = "<group>";
+		};
+		151E52E21D37C49100D747D1 /* DT */ = {
+			isa = PBXGroup;
+			children = (
+				151E52E41D37C5A000D747D1 /* ConsoleCommand.h */,
+				151E52E51D37C5D500D747D1 /* ConsoleEmulator.h */,
+				151E52E61D37C5D500D747D1 /* ConsoleEmulator.m */,
+				151E52E81D37C61900D747D1 /* GameBoyEmulator.h */,
+				151E52E91D37C61900D747D1 /* GameBoyEmulator.m */,
+				151E52EE1D37C66600D747D1 /* GameGearEmulator.h */,
+				151E52EF1D37C66600D747D1 /* GameGearEmulator.m */,
+				151E52F11D37C6A000D747D1 /* ConsoleController.h */,
+				151E52F21D37C6A000D747D1 /* ConsoleController.m */,
+				151E52F41D37C6C500D747D1 /* TouchController.h */,
+				151E52F51D37C6C500D747D1 /* TouchController.m */,
+			);
+			name = DT;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151E52E71D37C5D500D747D1 /* ConsoleEmulator.m in Sources */,
+				151E52F01D37C66600D747D1 /* GameGearEmulator.m in Sources */,
 				151E52B71D37C36100D747D1 /* ViewController.m in Sources */,
+				151E52F61D37C6C500D747D1 /* TouchController.m in Sources */,
 				151E52B41D37C36100D747D1 /* AppDelegate.m in Sources */,
+				151E52F31D37C6A000D747D1 /* ConsoleController.m in Sources */,
+				151E52EA1D37C61900D747D1 /* GameBoyEmulator.m in Sources */,
 				151E52B11D37C36100D747D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
