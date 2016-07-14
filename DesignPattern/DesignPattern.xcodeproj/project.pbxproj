@@ -160,6 +160,14 @@
 		151E52E21D37C49100D747D1 /* DT */ = {
 			isa = PBXGroup;
 			children = (
+				151E52F71D37C79500D747D1 /* Bridge */,
+			);
+			name = DT;
+			sourceTree = "<group>";
+		};
+		151E52F71D37C79500D747D1 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
 				151E52E41D37C5A000D747D1 /* ConsoleCommand.h */,
 				151E52E51D37C5D500D747D1 /* ConsoleEmulator.h */,
 				151E52E61D37C5D500D747D1 /* ConsoleEmulator.m */,
@@ -172,7 +180,7 @@
 				151E52F41D37C6C500D747D1 /* TouchController.h */,
 				151E52F51D37C6C500D747D1 /* TouchController.m */,
 			);
-			name = DT;
+			name = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
