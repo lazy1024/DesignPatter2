@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ConsoleCommand.h"
 
 @interface ConsoleEmulator : NSObject
 
+-(void) loadInstructionForCommand:(ConsoleCommand)command;
+-(void) executeInstruction;
+
 @end
+

@@ -10,4 +10,10 @@
 
 @implementation GameGearEmulator
 
+-(void) loadInstructionForCommand:(ConsoleCommand)command
+{}
+
+-(void) executeInstruction
+{}
+
 @end

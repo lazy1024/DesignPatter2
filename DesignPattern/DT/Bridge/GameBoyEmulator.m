@@ -10,4 +10,10 @@
 
 @implementation GameBoyEmulator
 
+-(void) loadInstructionForCommand:(ConsoleCommand)command
+{}
+
+-(void) executeInstruction
+{}
+
 @end

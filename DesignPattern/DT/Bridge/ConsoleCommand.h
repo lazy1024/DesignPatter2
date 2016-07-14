@@ -9,5 +9,16 @@
 #ifndef ConsoleCommand_h
 #define ConsoleCommand_h
 
+typedef enum
+{
+    kConsoleCommandUp,
+    kConsoleCommandDown,
+    kConsoleCommandLeft,
+    kConsoleCommandRight,
+    kConsoleCommandSelect,
+    kConsoleCommandStart,
+    kConsoleCommandAction1,
+    kConsoleCommandAction2
+}ConsoleCommand;
 
 #endif /* ConsoleCommand_h */

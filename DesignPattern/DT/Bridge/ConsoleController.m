@@ -10,4 +10,12 @@
 
 @implementation ConsoleController
 
+@synthesize emulator = _emulator;
+
+-(void) setCommand:(ConsoleCommand)command
+{
+    [_emulator loadInstructionForCommand:command];
+    [_emulator executeInstruction];
+}
+
 @end

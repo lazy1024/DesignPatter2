@@ -10,4 +10,10 @@
 
 @implementation ConsoleEmulator
 
+-(void) loadInstructionForCommand:(ConsoleCommand)command
+{}
+
+-(void) executeInstruction
+{}
+
 @end

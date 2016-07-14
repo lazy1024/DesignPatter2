@@ -10,4 +10,7 @@
 
 @interface GameGearEmulator : ConsoleEmulator
 
+-(void) loadInstructionForCommand:(ConsoleCommand)command;
+-(void) executeInstruction;
+
 @end
